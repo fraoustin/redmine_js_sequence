@@ -1,0 +1,10 @@
+div.sequence {
+    display:none;
+}
+
+div .diagramseq {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
