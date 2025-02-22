@@ -33,7 +33,7 @@ Redmine::Plugin.register :redmine_js_sequence do
   name 'Redmine Js Sequence'
   author 'Frederic Aoustin'
   description 'The redmine_js_sequence add js-sequence.js in Redmine.'
-  version '0.1.1'
+  version '0.2.0'
   url 'https://github.com/fraoustin/redmine_js_sequence'
   author_url 'https://github.com/fraoustin'
   requires_redmine :version_or_higher => '2.3.0'
