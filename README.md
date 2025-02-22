@@ -21,7 +21,17 @@ You can add your js-sequence code in wiki or issue by editor
 ## Installation
 ```
 $ cd redmine/plugins
-$ git clone https://github.com/fraoustin/redmine_js_sequencegit
+$ git clone https://github.com/fraoustin/redmine_js_sequence.git
 ```
 
 restart Redmine
+
+I had an issue with Redmine 6.0: the redmine/public folder was empty. I manually created the missing directories.
+
+```
+$ cd redmine/public
+$ mkdir redmine_js_sequence
+$ cd redmine_js_sequence
+$ ln -s ln -s ../../../plugins/redmine_js_sequence/assets/javascripts javascripts
+$ ln -s ln -s ../../../plugins/redmine_js_sequence/assets/stylesheets stylesheets
+```
