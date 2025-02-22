@@ -29,7 +29,7 @@ restart Redmine
 I had an issue with Redmine 6.0: the redmine/public folder was empty. I manually created the missing directories.
 
 ```
-$ cd redmine/public
+$ cd redmine/public/plugin_assets
 $ mkdir redmine_js_sequence
 $ cd redmine_js_sequence
 $ ln -s ln -s ../../../plugins/redmine_js_sequence/assets/javascripts javascripts
